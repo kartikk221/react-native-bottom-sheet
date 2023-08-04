@@ -121,7 +121,7 @@ export function createBottomSheetScrollableComponent<T, P>(
         overScrollMode={overScrollMode}
         keyboardDismissMode={keyboardDismissMode}
         refreshing={refreshing}
-        scrollEventThrottle={16}
+        scrollEventThrottle={8}
         progressViewOffset={progressViewOffset}
         style={containerStyle}
         onRefresh={onRefresh}
