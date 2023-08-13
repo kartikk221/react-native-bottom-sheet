@@ -4,7 +4,7 @@
   "description": "A performant interactive bottom sheet with fully configurable options 🚀",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
-  "types": "lib/typescript/index.d.ts",
+  "types": "./src",
   "react-native": "src/index.ts",
   "files": [
     "src",
